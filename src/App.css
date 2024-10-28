@@ -42,7 +42,7 @@
 .card-bg {
   background-color: #ededed;
   color: black;
-  padding: 1.5rem;
+  padding: 2rem;
   border-radius: 5%;;
   padding-bottom: 2rem;
 }
@@ -71,7 +71,7 @@
 }
 
 .btn-task {
-  margin-left: 1rem;
+  margin-left: 0.5rem;
   user-select: none;
 }
 
