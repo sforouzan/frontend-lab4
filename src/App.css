@@ -75,14 +75,14 @@
   user-select: none;
 }
 
-.form {
+.taskForm {
   height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 
-.task-container {
+.taskForm {
   align-items: center;
   justify-content: space-between;
   width: 292.24px;
@@ -98,4 +98,21 @@ h2 {
   margin: 0;
   margin-bottom: 2rem;
   color: rgb(201, 150, 175);
+}
+
+.filter-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 1rem;
+}
+
+.filter-button-indiv:focus {
+  background-color: rgb(201, 150, 175);
+}
+
+.taskList div {
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 0 !important;
+  margin-right: 0 !important;
 }
